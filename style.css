@@ -15,6 +15,9 @@ body {
 #theme-switcher-form div:nth-child(3) label {
   background-color: #813151;
 }
+#theme-switcher-form div:nth-child(4) label {
+  background-color: #316a81;
+}
 /* Remember these for every theme ;) */
 
 html[data-theme="light"] {
@@ -67,6 +70,26 @@ html[data-theme="crimson"] {
   --table-text: #DDD;
   --table-group1: #813151;
   --table-group2: #672741;
+  --echlevel-color: var(--table-text);
+  --echlevel-bg: var(--table-group1);
+  --echlevel-shadow: var(--table-group2);
+  --enchantment-results: #006666;
+  --progress-color: #f1a32f;
+  --error: #f90601;
+  --phone-warn: #e7cc03;
+  --solution: var(--enchantment-results);
+}
+
+html[data-theme="aqua"] {
+  --bg-primary: #132433;
+  --bg-secondary: #1d324d;
+  --fg-primary: white;
+  --fg-secondary: #eee;
+  --link-primary: #66b3ff;
+  --link-hover: #4d8ac3;
+  --table-text: #DDD;
+  --table-group1: #316a81;
+  --table-group2: #274767;
   --echlevel-color: var(--table-text);
   --echlevel-bg: var(--table-group1);
   --echlevel-shadow: var(--table-group2);
